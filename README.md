@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="01_Upload_Files/data/wise_header.png" alt="Project Logo" width="200">
+  <img src="01_Upload_Files/data/wise_header.png" alt="Project Logo" >
 </p>
 # Wise Reporting Project
 
