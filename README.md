@@ -11,12 +11,13 @@ This repository contains the code and documentation for the Wise reporting proje
 
 This directory is organized into a clear and logical structure to facilitate easy navigation and understanding. Each folder corresponds to a key stage in the data processing and analysis pipeline:
 
-* **00_Manuals**: This folder contains comprehensive documentation outlining the step-by-step processes involved in the project. This ensures the project can be easily replicated and understood in the future, even by those unfamiliar with the initial setup.
-* **01_Upload_Files**: This folder houses the Python scripts responsible for uploading the `.xls` file provided by Wise and creating the corresponding tables within BigQuery. This step prepares the data for subsequent analysis.
-* **02_Data_Analysis**: This folder contains two BigQuery queries:
+* [**00__User_Manuals**](00_User_Manuals): This folder contains comprehensive documentation outlining the step-by-step processes involved in the project. This ensures the project can be easily
+* replicated and understood in the future, even by those unfamiliar with the initial setup.
+* [**01_Upload_Files**](01_Upload_Files): This folder houses the Python scripts responsible for uploading the `.xls` file provided by Wise and creating the corresponding tables within BigQuery. This step prepares the data for subsequent analysis.
+* [**02_Data_Analysis**](02_Data_Analysis): This folder contains two BigQuery queries:
     * An exploratory query focusing on data cleaning and preparation, including handling null values and negative values.
     * A reporting query that generates the final datasets required for the R1 and R2 reports.
-* **03_Reports**: This folder contains the final outputs of the project:
+* [**03_Reports**](03_Reports): This folder contains the final outputs of the project:
     * A general report answering the specific questions posed by Wise.
     * Separate, detailed reports tailored to the requirements of R1 and R2.
     * A PowerPoint presentation summarizing the key findings and insights from the data analysis.
