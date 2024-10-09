@@ -1,7 +1,9 @@
 <p align="center">
   <img src="01_Upload_Files/data/wise_header.png" alt="Project Logo" >
 </p>
-# Wise Reporting Project
+
+
+## Wise Reporting Project
 
 This repository contains the code and documentation for the Wise reporting project. The project aims to provide aggregate data to regulators (R1 and R2) based on the provided Wise dataset.
 
